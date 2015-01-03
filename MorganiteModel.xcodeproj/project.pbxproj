@@ -14,6 +14,8 @@
 		B537EC901A580EA1004935E0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B537EC8F1A580EA1004935E0 /* Images.xcassets */; };
 		B537EC931A580EA1004935E0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B537EC911A580EA1004935E0 /* LaunchScreen.xib */; };
 		B537EC9F1A580EA1004935E0 /* MorganiteModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B537EC9E1A580EA1004935E0 /* MorganiteModelTests.swift */; };
+		B537ECA91A580EAE004935E0 /* Morganite.swift in Sources */ = {isa = PBXBuildFile; fileRef = B537ECA81A580EAE004935E0 /* Morganite.swift */; };
+		B537ECAB1A580EE5004935E0 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = B537ECAA1A580EE5004935E0 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		B537EC981A580EA1004935E0 /* MorganiteModelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MorganiteModelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B537EC9D1A580EA1004935E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B537EC9E1A580EA1004935E0 /* MorganiteModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorganiteModelTests.swift; sourceTree = "<group>"; };
+		B537ECA81A580EAE004935E0 /* Morganite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Morganite.swift; sourceTree = "<group>"; };
+		B537ECAA1A580EE5004935E0 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +90,8 @@
 				B537EC911A580EA1004935E0 /* LaunchScreen.xib */,
 				B537EC871A580EA1004935E0 /* MorganiteModel.xcdatamodeld */,
 				B537EC831A580EA1004935E0 /* Supporting Files */,
+				B537ECA81A580EAE004935E0 /* Morganite.swift */,
+				B537ECAA1A580EE5004935E0 /* Model.swift */,
 			);
 			path = MorganiteModel;
 			sourceTree = "<group>";
@@ -215,6 +221,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B537ECAB1A580EE5004935E0 /* Model.swift in Sources */,
+				B537ECA91A580EAE004935E0 /* Morganite.swift in Sources */,
 				B537EC8B1A580EA1004935E0 /* ViewController.swift in Sources */,
 				B537EC891A580EA1004935E0 /* MorganiteModel.xcdatamodeld in Sources */,
 				B537EC861A580EA1004935E0 /* AppDelegate.swift in Sources */,
