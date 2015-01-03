@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B537EC861A580EA1004935E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B537EC851A580EA1004935E0 /* AppDelegate.swift */; };
+		B537EC891A580EA1004935E0 /* MorganiteModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B537EC871A580EA1004935E0 /* MorganiteModel.xcdatamodeld */; };
+		B537EC8B1A580EA1004935E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B537EC8A1A580EA1004935E0 /* ViewController.swift */; };
+		B537EC8E1A580EA1004935E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B537EC8C1A580EA1004935E0 /* Main.storyboard */; };
+		B537EC901A580EA1004935E0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B537EC8F1A580EA1004935E0 /* Images.xcassets */; };
+		B537EC931A580EA1004935E0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B537EC911A580EA1004935E0 /* LaunchScreen.xib */; };
+		B537EC9F1A580EA1004935E0 /* MorganiteModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B537EC9E1A580EA1004935E0 /* MorganiteModelTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B537EC991A580EA1004935E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B537EC781A580EA1004935E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B537EC7F1A580EA1004935E0;
+			remoteInfo = MorganiteModel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B537EC801A580EA1004935E0 /* MorganiteModel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MorganiteModel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B537EC841A580EA1004935E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B537EC851A580EA1004935E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B537EC881A580EA1004935E0 /* MorganiteModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MorganiteModel.xcdatamodel; sourceTree = "<group>"; };
+		B537EC8A1A580EA1004935E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B537EC8D1A580EA1004935E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B537EC8F1A580EA1004935E0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B537EC921A580EA1004935E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B537EC981A580EA1004935E0 /* MorganiteModelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MorganiteModelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B537EC9D1A580EA1004935E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B537EC9E1A580EA1004935E0 /* MorganiteModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorganiteModelTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B537EC7D1A580EA1004935E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B537EC951A580EA1004935E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B537EC771A580EA1004935E0 = {
+			isa = PBXGroup;
+			children = (
+				B537EC821A580EA1004935E0 /* MorganiteModel */,
+				B537EC9B1A580EA1004935E0 /* MorganiteModelTests */,
+				B537EC811A580EA1004935E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B537EC811A580EA1004935E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B537EC801A580EA1004935E0 /* MorganiteModel.app */,
+				B537EC981A580EA1004935E0 /* MorganiteModelTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B537EC821A580EA1004935E0 /* MorganiteModel */ = {
+			isa = PBXGroup;
+			children = (
+				B537EC851A580EA1004935E0 /* AppDelegate.swift */,
+				B537EC8A1A580EA1004935E0 /* ViewController.swift */,
+				B537EC8C1A580EA1004935E0 /* Main.storyboard */,
+				B537EC8F1A580EA1004935E0 /* Images.xcassets */,
+				B537EC911A580EA1004935E0 /* LaunchScreen.xib */,
+				B537EC871A580EA1004935E0 /* MorganiteModel.xcdatamodeld */,
+				B537EC831A580EA1004935E0 /* Supporting Files */,
+			);
+			path = MorganiteModel;
+			sourceTree = "<group>";
+		};
+		B537EC831A580EA1004935E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B537EC841A580EA1004935E0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B537EC9B1A580EA1004935E0 /* MorganiteModelTests */ = {
+			isa = PBXGroup;
+			children = (
+				B537EC9E1A580EA1004935E0 /* MorganiteModelTests.swift */,
+				B537EC9C1A580EA1004935E0 /* Supporting Files */,
+			);
+			path = MorganiteModelTests;
+			sourceTree = "<group>";
+		};
+		B537EC9C1A580EA1004935E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B537EC9D1A580EA1004935E0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B537EC7F1A580EA1004935E0 /* MorganiteModel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B537ECA21A580EA1004935E0 /* Build configuration list for PBXNativeTarget "MorganiteModel" */;
+			buildPhases = (
+				B537EC7C1A580EA1004935E0 /* Sources */,
+				B537EC7D1A580EA1004935E0 /* Frameworks */,
+				B537EC7E1A580EA1004935E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MorganiteModel;
+			productName = MorganiteModel;
+			productReference = B537EC801A580EA1004935E0 /* MorganiteModel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B537EC971A580EA1004935E0 /* MorganiteModelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B537ECA51A580EA1004935E0 /* Build configuration list for PBXNativeTarget "MorganiteModelTests" */;
+			buildPhases = (
+				B537EC941A580EA1004935E0 /* Sources */,
+				B537EC951A580EA1004935E0 /* Frameworks */,
+				B537EC961A580EA1004935E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B537EC9A1A580EA1004935E0 /* PBXTargetDependency */,
+			);
+			name = MorganiteModelTests;
+			productName = MorganiteModelTests;
+			productReference = B537EC981A580EA1004935E0 /* MorganiteModelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B537EC781A580EA1004935E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Shigure Shimotori";
+				TargetAttributes = {
+					B537EC7F1A580EA1004935E0 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					B537EC971A580EA1004935E0 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = B537EC7F1A580EA1004935E0;
+					};
+				};
+			};
+			buildConfigurationList = B537EC7B1A580EA1004935E0 /* Build configuration list for PBXProject "MorganiteModel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B537EC771A580EA1004935E0;
+			productRefGroup = B537EC811A580EA1004935E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B537EC7F1A580EA1004935E0 /* MorganiteModel */,
+				B537EC971A580EA1004935E0 /* MorganiteModelTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B537EC7E1A580EA1004935E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B537EC8E1A580EA1004935E0 /* Main.storyboard in Resources */,
+				B537EC931A580EA1004935E0 /* LaunchScreen.xib in Resources */,
+				B537EC901A580EA1004935E0 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B537EC961A580EA1004935E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B537EC7C1A580EA1004935E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B537EC8B1A580EA1004935E0 /* ViewController.swift in Sources */,
+				B537EC891A580EA1004935E0 /* MorganiteModel.xcdatamodeld in Sources */,
+				B537EC861A580EA1004935E0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B537EC941A580EA1004935E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B537EC9F1A580EA1004935E0 /* MorganiteModelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B537EC9A1A580EA1004935E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B537EC7F1A580EA1004935E0 /* MorganiteModel */;
+			targetProxy = B537EC991A580EA1004935E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B537EC8C1A580EA1004935E0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B537EC8D1A580EA1004935E0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B537EC911A580EA1004935E0 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B537EC921A580EA1004935E0 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B537ECA01A580EA1004935E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B537ECA11A580EA1004935E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B537ECA31A580EA1004935E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MorganiteModel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B537ECA41A580EA1004935E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MorganiteModel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B537ECA61A580EA1004935E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MorganiteModelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MorganiteModel.app/MorganiteModel";
+			};
+			name = Debug;
+		};
+		B537ECA71A580EA1004935E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MorganiteModelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MorganiteModel.app/MorganiteModel";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B537EC7B1A580EA1004935E0 /* Build configuration list for PBXProject "MorganiteModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B537ECA01A580EA1004935E0 /* Debug */,
+				B537ECA11A580EA1004935E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B537ECA21A580EA1004935E0 /* Build configuration list for PBXNativeTarget "MorganiteModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B537ECA31A580EA1004935E0 /* Debug */,
+				B537ECA41A580EA1004935E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B537ECA51A580EA1004935E0 /* Build configuration list for PBXNativeTarget "MorganiteModelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B537ECA61A580EA1004935E0 /* Debug */,
+				B537ECA71A580EA1004935E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B537EC871A580EA1004935E0 /* MorganiteModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B537EC881A580EA1004935E0 /* MorganiteModel.xcdatamodel */,
+			);
+			currentVersion = B537EC881A580EA1004935E0 /* MorganiteModel.xcdatamodel */;
+			path = MorganiteModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B537EC781A580EA1004935E0 /* Project object */;
+}
