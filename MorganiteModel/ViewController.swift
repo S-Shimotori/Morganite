@@ -37,7 +37,7 @@ class ViewController: UIViewController{
         mt.insert(insertData)
         
         println("200以上を取得してみましょう")
-        results = mt.select(format: NSPredicate(format:"%K >= %d","someDataB",200)!)
+        results = mt.select(format: NSPredicate(format:"%K >= %d","someDataB",200))
         for result in results{
             println("\((result as Model).someDataA) \((result as Model).someDataB)")
         }
@@ -45,7 +45,12 @@ class ViewController: UIViewController{
         println("400を-400にかえてみます")
         var updateData = Dictionary<String,AnyObject>()
         updateData["someDataB"] = -400
-        mt.update(updateData,format:NSPredicate(format:"%K = %d","someDataB",400)!)
+        mt.update(updateData,format:NSPredicate(format:"%K = %d","someDataB",400))
+        
+        println("ほっほっほ。")
+        updateData.removeAll()
+        updateData["someDataA"] = "hohoho"
+        mt.update(updateData)
         
         println("全部取得してみましょう")
         results = mt.select()
@@ -54,7 +59,7 @@ class ViewController: UIViewController{
         }
         
         println("-400をけします")
-        mt.delete(format: NSPredicate(format:"%K = %d","someDataB",-400)!)
+        mt.delete(format: NSPredicate(format:"%K = %d","someDataB",-400))
         
         println("全部取得してみましょう")
         results = mt.select()

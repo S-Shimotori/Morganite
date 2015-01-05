@@ -8,6 +8,8 @@ CoreDataを簡単に扱いたかった(過去形)
 AppDelegateとかxcdatamodeldとかNSManagedObjectのサブクラスの用意  
   
 2.このプロジェクトに含まれているMorganiteクラスをそのへんに置きます  
+Morganite.swift以外はただのゴミみたいなもんです  
+一応ViewControllerくらいは使用例として見る価値が…ないです  
   
 3.使いたいときにMorganiteを連れてきてエンティティ名を与えます  
 ```swift
@@ -26,7 +28,7 @@ AppDelegateとかxcdatamodeldとかNSManagedObjectのサブクラスの用意
   
 5.データを持ってきてみましょう  
 ```swift
-    var results = [Hoge]()  
+    var results = [NSManagedObject]()  
     results = hoge.select()  
     for result in results{  
         println("\(result.dataA) \(result.dataB)")  

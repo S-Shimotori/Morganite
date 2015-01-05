@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B5308A821A5AD43F00E2A1E7 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = B5308A811A5AD43F00E2A1E7 /* README.md */; };
 		B537EC861A580EA1004935E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B537EC851A580EA1004935E0 /* AppDelegate.swift */; };
 		B537EC891A580EA1004935E0 /* MorganiteModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B537EC871A580EA1004935E0 /* MorganiteModel.xcdatamodeld */; };
 		B537EC8B1A580EA1004935E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B537EC8A1A580EA1004935E0 /* ViewController.swift */; };
@@ -29,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B5308A811A5AD43F00E2A1E7 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B537EC801A580EA1004935E0 /* MorganiteModel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MorganiteModel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B537EC841A580EA1004935E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B537EC851A580EA1004935E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 		B537EC771A580EA1004935E0 = {
 			isa = PBXGroup;
 			children = (
+				B5308A811A5AD43F00E2A1E7 /* README.md */,
 				B537EC821A580EA1004935E0 /* MorganiteModel */,
 				B537EC9B1A580EA1004935E0 /* MorganiteModelTests */,
 				B537EC811A580EA1004935E0 /* Products */,
@@ -221,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5308A821A5AD43F00E2A1E7 /* README.md in Sources */,
 				B537ECA91A580EAE004935E0 /* Morganite.swift in Sources */,
 				B537EC8B1A580EA1004935E0 /* ViewController.swift in Sources */,
 				B537ECAF1A58331B004935E0 /* Model.swift in Sources */,

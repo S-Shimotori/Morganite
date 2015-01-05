@@ -50,11 +50,13 @@ public class Morganite{
         return results
     }
     
-    public func update(columns:Dictionary<String,AnyObject>,format:NSPredicate)->Bool{
+    public func update(columns:Dictionary<String,AnyObject>,format:NSPredicate?=nil)->Bool{
         if let managedObjectContext = appDelegate.managedObjectContext{
             let fetchRequest = NSFetchRequest();
-            fetchRequest.entity = NSEntityDescription.entityForName(table, inManagedObjectContext: managedObjectContext);
-            fetchRequest.predicate = format
+            fetchRequest.entity = NSEntityDescription.entityForName(table, inManagedObjectContext: managedObjectContext)
+            if format != nil{
+                fetchRequest.predicate = format
+            }
             var error: NSError? = nil;
 
             if var results = managedObjectContext.executeFetchRequest(fetchRequest,error:&error){
