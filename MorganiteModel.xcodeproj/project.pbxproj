@@ -15,7 +15,7 @@
 		B537EC931A580EA1004935E0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B537EC911A580EA1004935E0 /* LaunchScreen.xib */; };
 		B537EC9F1A580EA1004935E0 /* MorganiteModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B537EC9E1A580EA1004935E0 /* MorganiteModelTests.swift */; };
 		B537ECA91A580EAE004935E0 /* Morganite.swift in Sources */ = {isa = PBXBuildFile; fileRef = B537ECA81A580EAE004935E0 /* Morganite.swift */; };
-		B537ECAB1A580EE5004935E0 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = B537ECAA1A580EE5004935E0 /* Model.swift */; };
+		B537ECAF1A58331B004935E0 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = B537ECAE1A58331B004935E0 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +41,7 @@
 		B537EC9D1A580EA1004935E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B537EC9E1A580EA1004935E0 /* MorganiteModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorganiteModelTests.swift; sourceTree = "<group>"; };
 		B537ECA81A580EAE004935E0 /* Morganite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Morganite.swift; sourceTree = "<group>"; };
-		B537ECAA1A580EE5004935E0 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		B537ECAE1A58331B004935E0 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,9 +89,9 @@
 				B537EC8F1A580EA1004935E0 /* Images.xcassets */,
 				B537EC911A580EA1004935E0 /* LaunchScreen.xib */,
 				B537EC871A580EA1004935E0 /* MorganiteModel.xcdatamodeld */,
+				B537ECAE1A58331B004935E0 /* Model.swift */,
 				B537EC831A580EA1004935E0 /* Supporting Files */,
 				B537ECA81A580EAE004935E0 /* Morganite.swift */,
-				B537ECAA1A580EE5004935E0 /* Model.swift */,
 			);
 			path = MorganiteModel;
 			sourceTree = "<group>";
@@ -221,9 +221,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B537ECAB1A580EE5004935E0 /* Model.swift in Sources */,
 				B537ECA91A580EAE004935E0 /* Morganite.swift in Sources */,
 				B537EC8B1A580EA1004935E0 /* ViewController.swift in Sources */,
+				B537ECAF1A58331B004935E0 /* Model.swift in Sources */,
 				B537EC891A580EA1004935E0 /* MorganiteModel.xcdatamodeld in Sources */,
 				B537EC861A580EA1004935E0 /* AppDelegate.swift in Sources */,
 			);
@@ -351,6 +351,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MorganiteModel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -361,6 +362,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MorganiteModel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -419,6 +421,7 @@
 				B537ECA41A580EA1004935E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B537ECA51A580EA1004935E0 /* Build configuration list for PBXNativeTarget "MorganiteModelTests" */ = {
 			isa = XCConfigurationList;
@@ -427,6 +430,7 @@
 				B537ECA71A580EA1004935E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

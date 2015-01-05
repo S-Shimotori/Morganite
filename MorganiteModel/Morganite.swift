@@ -13,40 +13,44 @@ public class Morganite{
     private var appDelegate:AppDelegate{
         get{return UIApplication.sharedApplication().delegate as AppDelegate}
     }
-    private var table:String = ""
+    private var table:String
     
-    public func insert(columns:[AnyObject])->Bool{
+    init(table:String){
+        self.table = table
+    }
+    
+    
+    public func insert(columns:Dictionary<String,AnyObject>)->Bool{
         if let managedObjectContext = appDelegate.managedObjectContext{
             var managedObject = NSEntityDescription.insertNewObjectForEntityForName(table,inManagedObjectContext:managedObjectContext) as NSManagedObject
-            insertCore(&managedObject,columns:columns)
+            managedObject.setValuesForKeysWithDictionary(columns)
             appDelegate.saveContext()
             return true
         }else{
             return false
         }
     }
-    private func insertCore(inout managedObject:NSManagedObject,columns:[AnyObject]){
-        fatalError("")
-    }
 
-    public func select(format:NSPredicate)->[NSManagedObject]{
+    public func select(format:NSPredicate?=nil)->[NSManagedObject]{
         var results = [NSManagedObject]()
         if let managedObjectContext = appDelegate.managedObjectContext{
             let fetchRequest = NSFetchRequest()
             fetchRequest.entity = NSEntityDescription.entityForName(table,inManagedObjectContext:managedObjectContext)
-            fetchRequest.predicate = format
+            if format != nil{
+                fetchRequest.predicate = format
+            }
             var error: NSError? = nil;
             
             if var records = managedObjectContext.executeFetchRequest(fetchRequest,error:&error){
-                for managedObject in results {
-                    results.append(managedObject)
+                for record in records {
+                    results.append(record as NSManagedObject)
                 }
             }
         }
         return results
     }
     
-    public func update(columns:[AnyObject],format:NSPredicate)->Bool{
+    public func update(columns:Dictionary<String,AnyObject>,format:NSPredicate)->Bool{
         if let managedObjectContext = appDelegate.managedObjectContext{
             let fetchRequest = NSFetchRequest();
             fetchRequest.entity = NSEntityDescription.entityForName(table, inManagedObjectContext: managedObjectContext);
@@ -54,7 +58,9 @@ public class Morganite{
             var error: NSError? = nil;
 
             if var results = managedObjectContext.executeFetchRequest(fetchRequest,error:&error){
-                updateCore(&results,columns:columns)
+                for result in results{
+                    result.setValuesForKeysWithDictionary(columns)
+                }
             }else{
                 return false
             }
@@ -64,15 +70,14 @@ public class Morganite{
             return false
         }
     }
-    private func updateCore(inout managedObjects:[AnyObject],columns:[AnyObject]){
-        fatalError("")
-    }
     
-    func delete(format:NSPredicate)->Bool{
+    func delete(format:NSPredicate? = nil)->Bool{
         if let managedObjectContext = appDelegate.managedObjectContext{
             let fetchRequest = NSFetchRequest();
             fetchRequest.entity = NSEntityDescription.entityForName(table,inManagedObjectContext:managedObjectContext)
-            fetchRequest.predicate = format
+            if format != nil{
+                fetchRequest.predicate = format
+            }
             var error: NSError? = nil;
             
             if var results = managedObjectContext.executeFetchRequest(fetchRequest,error: &error) {
